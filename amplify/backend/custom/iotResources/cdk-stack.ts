@@ -22,7 +22,7 @@ export class cdkStack extends cdk.Stack {
     /* AWS CDK code goes here - learn more: https://docs.aws.amazon.com/cdk/latest/guide/home.html */
 
     // Identifier for the IoT Core Certificate, REPLACE THIS WITH YOUR CERTIFICATE ID
-    const CERTIFICATE_ID = "[YOUR_CERTIFICATE_ID]";
+    const CERTIFICATE_ID = "96dca7736e9f7d79ebd5b5fe2a94fe9a0261071efabbcb43c538c9b042cada21";
 
     // Access other Amplify Resources
     const retVal: AmplifyDependentResourcesAttributes =

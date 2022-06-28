@@ -10,7 +10,7 @@ Amplify Params - DO NOT EDIT */
 const { logger } = require("/opt/powertools");
 const { Itinerary } = require("./utils");
 
-const THING_ENDPOINT = "[some-id]-ats.iot.[region-name].amazonaws.com";
+const THING_ENDPOINT = "a1cvae90v4lr6u-ats.iot.eu-west-1.amazonaws.com";
 const CLIENT_ID = "trackerThing";
 const IOT_TOPIC = "iot/trackedAssets";
 

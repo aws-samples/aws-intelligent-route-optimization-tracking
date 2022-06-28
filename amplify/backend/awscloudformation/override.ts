@@ -16,7 +16,7 @@ export function override(resources: AmplifyRootStackTemplate) {
         Statement: [
           {
             Resource:
-              "arn:aws:geo:[region-name]:[account-id]:route-calculator/routecalculator_supplychain",
+              "arn:aws:geo:eu-west-1:536254204126:route-calculator/routecalculator_supplychain",
             Action: ["geo:CalculateRoute*"],
             Effect: "Allow",
           },
